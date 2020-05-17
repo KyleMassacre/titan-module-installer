@@ -1,0 +1,30 @@
+{
+    "name": "kylemassacre/titan-module-installer",
+    "description": "A plugin to install Titan modules and place them in the correct directory",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "KyleMassacre\\TitanModuleInstaller\\": "src/"
+        }
+    },
+    "extra": {
+        "class": "KyleMassacre\\TitanModuleInstaller\\TitanModuleInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.1",
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "composer/composer": "^1.3",
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "^8.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Ellis",
+            "email": "ky.ellis83@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
